@@ -1,0 +1,17 @@
+.demo {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+}
+.paragraf {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: blue;
+}
+.button {
+  font-family: "Courier New", Courier, monospace;
+  color: darkgreen;
+  text-align: center;
+  transform: translate();
+}
