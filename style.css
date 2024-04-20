@@ -35,7 +35,7 @@ body {
 .navbar-menu li a {
   display: inline-block;
   color: #000;
-  opacity: 0 0.6;
+  opacity: 0.6;
   text-decoration: none;
   padding: 10px;
   transition: all 0.07s ease-in-out;
@@ -72,11 +72,11 @@ body {
   font-size: 26px;
   text-decoration: none;
   color: #000;
+  transition: all 0.07s ease-in-out;
 }
 
 .navbar-brand:hover {
   color: coral;
-  transition: all 0.07s ease-in-out;
 }
 
 .demo {
