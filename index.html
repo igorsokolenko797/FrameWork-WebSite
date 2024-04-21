@@ -18,170 +18,174 @@
     />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="container">
-        <a href="#" class="navbar-brand">HTML&CSS</a>
-
-        <div class="navbar-wrap">
-          <ul class="navbar-menu">
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Портфолио</a></li>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-          <a href="#" class="callback">Log In</a>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="navbar-brand">HTML&CSS</a>
+  
+          <div class="navbar-wrap">
+            <ul class="navbar-menu">
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Портфолио</a></li>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <a href="#" class="callback">Log In</a>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="content mt-5">
-      <div class="row">
-        <!-- картока товара -->
-        <div class="col-md-3"> <!-- параметры -->
-          <div class="product">
-            <div class="image">
-              <img src="http://placehold.it/300x400" alt="" />
+      </nav>
+    </header>
+    <main> <!--Основной контент -->
+      <section class="content mt-5"> <!--Секция основного контента-->
+        <article class="row"> <!--лента товаров-->
+          <!-- картока товара -->
+          <div class="col-md-3"> <!-- параметры -->
+            <div class="product">
+              <div class="image">
+                <img src="http://placehold.it/300x400" alt="" />
+              </div>
+  
+              <div class="info">
+                <h3>Название товара</h3>
+  
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
+                  <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
+                  <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
+                  <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
+                  <li><ion-icon name="star-half"></ion-icon></li> <!-- иконка звезды -->
+                </ul>
+  
+                <div class="info-price">
+                  <span class="price">230</span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart"></ion-icon> <!-- иконка корзины со стороннего сайта -->
+                  </button>
+                </div>
+              </div>
             </div>
-
-            <div class="info">
-              <h3>Название товара</h3>
-
-              <ul class="rating">
-                <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
-                <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
-                <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
-                <li><ion-icon name="star"></ion-icon></li> <!-- иконка звезды -->
-                <li><ion-icon name="star-half"></ion-icon></li> <!-- иконка звезды -->
-              </ul>
-
-              <div class="info-price">
-                <span class="price">230</span>
-                <button class="add-to-cart">
-                  <ion-icon name="cart"></ion-icon> <!-- иконка корзины со стороннего сайта -->
-                </button>
+          </div> <!-- конец карточки, дальше копии -->
+          <div class="col-md-3">
+            <div class="product">
+              <div class="image">
+                <img src="http://placehold.it/300x400" alt="" />
+              </div>
+  
+              <div class="info">
+                <h3>Название товара</h3>
+  
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+  
+                <div class="info-price">
+                  <span class="price">230</span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div> <!-- конец карточки, дальше копии -->
-        <div class="col-md-3">
-          <div class="product">
-            <div class="image">
-              <img src="http://placehold.it/300x400" alt="" />
-            </div>
-
-            <div class="info">
-              <h3>Название товара</h3>
-
-              <ul class="rating">
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star-half"></ion-icon></li>
-              </ul>
-
-              <div class="info-price">
-                <span class="price">230</span>
-                <button class="add-to-cart">
-                  <ion-icon name="cart"></ion-icon>
-                </button>
+          <div class="col-md-3">
+            <div class="product">
+              <div class="image">
+                <img src="http://placehold.it/300x400" alt="" />
+              </div>
+  
+              <div class="info">
+                <h3>Название товара</h3>
+  
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+  
+                <div class="info-price">
+                  <span class="price">230</span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="product">
-            <div class="image">
-              <img src="http://placehold.it/300x400" alt="" />
-            </div>
-
-            <div class="info">
-              <h3>Название товара</h3>
-
-              <ul class="rating">
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star-half"></ion-icon></li>
-              </ul>
-
-              <div class="info-price">
-                <span class="price">230</span>
-                <button class="add-to-cart">
-                  <ion-icon name="cart"></ion-icon>
-                </button>
+          <div class="col-md-3">
+            <div class="product">
+              <div class="image">
+                <img src="http://placehold.it/300x400" alt="" />
+              </div>
+  
+              <div class="info">
+                <h3>Название товара</h3>
+  
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+  
+                <div class="info-price">
+                  <span class="price">230</span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="product">
-            <div class="image">
-              <img src="http://placehold.it/300x400" alt="" />
-            </div>
-
-            <div class="info">
-              <h3>Название товара</h3>
-
-              <ul class="rating">
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star-half"></ion-icon></li>
-              </ul>
-
-              <div class="info-price">
-                <span class="price">230</span>
-                <button class="add-to-cart">
-                  <ion-icon name="cart"></ion-icon>
-                </button>
+          <div class="col-md-3">
+            <div class="product">
+              <div class="image">
+                <img src="http://placehold.it/300x400" alt="" />
+              </div>
+  
+              <div class="info">
+                <h3>Название товара</h3>
+  
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+  
+                <div class="info-price">
+                  <span class="price">230</span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
+        </article> <!-- конец ленты товаров-->
+      </section> <!-- конец секции основного контента-->
+      <section class="img-container"> <!--Галерея-->
+        <div class="gallery">
+          <span><img src="pictures/img_1.jpg" /></span>
+          <span><img src="pictures/img_2.jpg" /></span>
+          <span><img src="pictures/img_3.jpg" /></span>
         </div>
-        <div class="col-md-3">
-          <div class="product">
-            <div class="image">
-              <img src="http://placehold.it/300x400" alt="" />
-            </div>
-
-            <div class="info">
-              <h3>Название товара</h3>
-
-              <ul class="rating">
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star"></ion-icon></li>
-                <li><ion-icon name="star-half"></ion-icon></li>
-              </ul>
-
-              <div class="info-price">
-                <span class="price">230</span>
-                <button class="add-to-cart">
-                  <ion-icon name="cart"></ion-icon>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="gallery">
-        <span><img src="pictures/img_1.jpg" /></span>
-        <span><img src="pictures/img_2.jpg" /></span>
-        <span><img src="pictures/img_3.jpg" /></span>
-      </div>
-      <div class="gallery">
-        <span><img src="pictures/img_4.jpg" /></span>
-        <span><img src="pictures/img_5.jpg" /></span>
-        <span><img src="pictures/img_3.jpg" /></span>
-      </div>
-    </div>
-    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
-    <script src="script.js"></script>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <div class="gallery">
+          <span><img src="pictures/img_4.jpg" /></span>
+          <span><img src="pictures/img_5.jpg" /></span>
+          <span><img src="pictures/img_3.jpg" /></span>
+        </div> <!-- конец галереи-->
+      </section> 
+      <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+      <script src="script.js"></script>
+      <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    </main> <!-- Конец основного контента -->
   </body>
 </html>
