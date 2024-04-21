@@ -138,13 +138,13 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+.img-container {
   width: 100%;
   height: 350px;
   display: flex;
   overflow-x: scroll;
 }
-.container .gallery {
+.img-container .gallery {
   width: 100%;
   display: flex;
   grid-template-columns: auto auto auto;
@@ -152,7 +152,7 @@ body {
   padding: 10px;
   flex: none;
 }
-.container .gallery img {
+.img-container .gallery img {
   width: 100%;
   height: 100%;
 }
