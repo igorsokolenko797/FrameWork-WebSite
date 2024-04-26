@@ -31,6 +31,7 @@ const modelController = ({ modal, btnOpen, btnClose, time = 300 }) => {
   const openModel = () => {
     modelElem.style.visibility = "visible";
     modelElem.style.opacity = "1";
+    modelElem.style.display = "flex";
     window.addEventListener("keydown", closeModel);
   };
 
@@ -43,3 +44,24 @@ modelController({
   btnOpen: ".callback",
   btnClose: ".btn-close",
 });
+
+
+const logController = ({ con_modal, reg, log,}) =>{
+    const container = document.getElementById(con_modal);
+    const registerBtn = document.getElementById(reg);
+    const loginBtn = document.getElementById(log);
+
+    registerBtn.addEventListener('click', () => {
+        container.classList.add("active");
+    });
+
+    loginBtn.addEventListener('click', () => {
+        container.classList.remove("active");
+    });
+}
+
+logController({
+    con_modal: "container-modal",
+    reg: "register",
+    log: "login",
+  });
